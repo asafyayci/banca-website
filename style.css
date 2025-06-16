@@ -1,0 +1,98 @@
+/* Temel Stil – Old Money Estetiği */
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f8f7f4;
+  color: #2d2b28;
+}
+
+header {
+  background-color: #e7e3d8;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #c2bfae;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2d2b28;
+  font-weight: 500;
+}
+
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1583939003576-5bbfbd03d43c'); /* klasik taş bina resmi */
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  background-color: rgba(248, 247, 244, 0.85);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 2.8em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #2d2b28;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.section {
+  padding: 60px 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ccc;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.section ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #e7e3d8;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  border-top: 1px solid #c2bfae;
+}
